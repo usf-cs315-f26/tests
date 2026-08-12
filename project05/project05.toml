@@ -1,0 +1,27 @@
+[project]
+build = "none"
+timeout = 30
+
+[[tests]]
+name = "fib-rec"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-fib-rec.ggc"]
+expected = "PASS"
+rubric = 22
+
+[[tests]]
+name = "is-pal-rec"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-pal-rec.ggc"]
+expected = "PASS"
+rubric = 22
+
+[[tests]]
+name = "get-bitseq"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-get-bitseq.ggc"]
+expected = "PASS"
+rubric = 22
+
+[[tests]]
+name = "quadratic"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-quadratic.ggc"]
+expected = "PASS"
+rubric = 22
