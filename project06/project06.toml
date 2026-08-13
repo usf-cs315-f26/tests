@@ -1,0 +1,147 @@
+[project]
+build = "none"
+timeout = 600
+
+[[tests]]
+name = "00-add-r"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/00-addr-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "01-add-i"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/01-addi-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "02-sll-r"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/02-sllr-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "03-sll-i"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/03-slli-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "04-srl-r"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/04-srlr-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "05-srl-i"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/05-srli-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "06-sd-ld"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/06-ldsd-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "07-sw-lw"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/07-swlw-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "08-jal"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/08-jal-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "09-j"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/09-j-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "10-beq"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/10-beq-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "11-blt"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/11-blt-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "12-bge"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/12-bge-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "13-mul"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/13-mul-test.ggc"]
+expected = "PASS"
+rubric = 1 #make it add up to 30
+
+[[tests]]
+name = "14-lui"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/14-lui-test.ggc"]
+expected = "PASS"
+rubric = 1 #make it add up to 30
+
+[[tests]]
+name = "15-sb-lb"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/15-sblb-test.ggc"]
+expected = "PASS"
+rubric = 2
+
+[[tests]]
+name = "16-quadratic"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/16-quadratic-test.ggc"]
+expected = "PASS"
+rubric = 5
+
+[[tests]]
+name = "17-get-bitseq"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/17-get-bitseq-test.ggc"]
+expected = "PASS"
+rubric = 5
+
+[[tests]]
+name = "18-max3"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/18-max3-test.ggc"]
+expected = "PASS"
+rubric = 5
+
+[[tests]]
+name = "19-fib-rec"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/19-fib-rec-test.ggc"]
+expected = "PASS"
+rubric = 5
+
+[[tests]]
+name = "20-is-pal"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/20-is-pal-test.ggc"]
+expected = "PASS"
+rubric = 5
+
+[[tests]]
+name = "21-to-upper"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/21-to-upper-test.ggc"]
+expected = "PASS"
+rubric = 5
+
+[[tests]]
+name = "22-sort"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/22-sort-s-test.ggc"]
+expected = "PASS"
+rubric = 5
+
+[[tests]]
+name = "23-str-to-int"
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/23-str-to-int-test.ggc"]
+expected = "PASS"
+rubric = 5
