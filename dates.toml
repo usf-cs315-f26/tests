@@ -54,12 +54,12 @@ percentage = 0.5
 
 [[project02.dates]]
 suffix = "due"
-date = "2026-02-18"
+date = "2026-09-16"
 percentage = 1.0
 
 [[project02.dates]]
 suffix = "1week"
-date = "2026-02-23"
+date = "2026-09-21"
 percentage = 0.75
 
 [[project02.dates]]
