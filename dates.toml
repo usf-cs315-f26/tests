@@ -88,12 +88,12 @@ percentage = 0.5
 
 [[project03.dates]]
 suffix = "due"
-date = "2026-03-03"
+date = "2026-9-29"
 percentage = 1.0
 
 [[project03.dates]]
 suffix = "1week"
-date = "2026-03-08"
+date = "2026-10-06"
 percentage = 0.75
 
 [[project03.dates]]
@@ -226,4 +226,3 @@ percentage = 0.5
 suffix = "due"
 date = "2026-12-10"
 percentage = 1.0
-
