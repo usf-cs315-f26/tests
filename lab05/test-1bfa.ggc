@@ -1,0 +1,99 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-10-14T18:36:51.180Z",
+  "name": "test-1bfa",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1_1792002867552",
+      "type": "test",
+      "x": 43,
+      "y": 15,
+      "props": {
+        "label": "test-1-bit-full-adder",
+        "table": {
+          "inputNames": [
+            "a",
+            "b",
+            "cin"
+          ],
+          "outputNames": [
+            "sum",
+            "cout"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          ]
+        },
+        "stop_enabled": false,
+        "stop_output_name": "",
+        "stop_output_value": 1,
+        "reset_enabled": false,
+        "reset_input_name": ""
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

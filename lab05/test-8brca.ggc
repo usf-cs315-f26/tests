@@ -1,0 +1,66 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-10-14T18:38:44.296Z",
+  "name": "test-8brca",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1_1792003064214",
+      "type": "test",
+      "x": 38,
+      "y": 13,
+      "props": {
+        "label": "test-8brca",
+        "table": {
+          "inputNames": [
+            "a",
+            "b"
+          ],
+          "outputNames": [
+            "sum",
+            "cout"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              8,
+              16,
+              0
+            ],
+            [
+              128,
+              127,
+              255,
+              0
+            ],
+            [
+              255,
+              1,
+              0,
+              1
+            ]
+          ]
+        },
+        "stop_enabled": false,
+        "stop_output_name": "",
+        "stop_output_value": 1,
+        "reset_enabled": false,
+        "reset_input_name": ""
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

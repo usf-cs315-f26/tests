@@ -1,0 +1,124 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-10-14T18:28:50.516Z",
+  "name": "test-max2",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1_1792002213946",
+      "type": "test",
+      "x": 55,
+      "y": 11,
+      "props": {
+        "label": "max2-test",
+        "table": {
+          "inputNames": [
+            "a1",
+            "a0",
+            "b1",
+            "b0"
+          ],
+          "outputNames": [
+            "r1",
+            "r0"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "stop_enabled": false,
+        "stop_output_name": "",
+        "stop_output_value": 1,
+        "reset_enabled": false,
+        "reset_input_name": ""
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

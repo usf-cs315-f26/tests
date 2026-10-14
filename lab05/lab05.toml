@@ -1,32 +1,22 @@
 [project]
 build = "none"
-strip_output = """
-Use default settings!
-"""
 timeout = 15
-capture_stderr = false
-container = "java"
+container = "none"
 
 [[tests]]
 name = "max2"
-input = ["java", "-cp", "$digital", "CLI", "test", "max2.dig", "-tests", "$project_tests/max2_test.dig"]
-expected = """
-max2_test: passed
-"""
+input = ["ggl-grade", "max2.ggc", "--test", "$project_tests/test-max2.ggc"]
+expected = "PASS"
 rubric = 33
 
 [[tests]]
 name = "1-bit-full-adder"
-input = ["java", "-cp", "$digital", "CLI", "test", "1-bit-full-adder.dig", "-tests", "$project_tests/1bfa_test.dig"]
-expected = """
-1bfa_test: passed
-"""
+input = ["ggl-grade", "1-bit-full-adder.ggc", "--test", "$project_tests/test-1bfa.ggc"]
+expected = "PASS"
 rubric = 33
 
 [[tests]]
 name = "8-bit-ripple-carry-adder"
-input = ["java", "-cp", "$digital", "CLI", "test", "8-bit-ripple-carry-adder.dig", "-tests", "$project_tests/8brca_test.dig"]
-expected = """
-8brca_test: passed
-"""
+input = ["ggl-grade", "8-bit-ripple-carry-adder.ggc", "--test", "$project_tests/test-8brca.ggc"]
+expected = "PASS"
 rubric = 34
