@@ -9,7 +9,7 @@ C: 55
 Asm: 55
 Emu: 55
 """
-rubric = 4
+rubric = 2
 
 [[tests]]
 name = "get_bitseq"
@@ -19,7 +19,7 @@ C: 6
 Asm: 6
 Emu: 6
 """
-rubric = 4
+rubric = 2
 
 [[tests]]
 name = "int_to_str"
@@ -29,7 +29,7 @@ C: 0xff
 Asm: 0xff
 Emu: 0xff
 """
-rubric = 5
+rubric = 3
 
 [[tests]]
 name = "is_pal"
@@ -39,7 +39,7 @@ C: is a palindrome
 Asm: is a palindrome
 Emu: is a palindrome
 """
-rubric = 4
+rubric = 2
 
 [[tests]]
 name = "max3"
@@ -49,7 +49,7 @@ C: 10
 Asm: 10
 Emu: 10
 """
-rubric = 4
+rubric = 2
 
 [[tests]]
 name = "midpoint"
@@ -79,7 +79,7 @@ C: 6 5 4 3 2 1
 Asm: 6 5 4 3 2 1
 Emu: 6 5 4 3 2 1
 """
-rubric = 10
+rubric = 5
 
 [[tests]]
 name = "str_to_int"
@@ -89,7 +89,7 @@ C: 16
 Asm: 16
 Emu: 16
 """
-rubric = 5
+rubric = 4
 
 [[tests]]
 name = "to_upper"
@@ -180,7 +180,7 @@ Misses (cold) = 8
 Misses (hot)  = 1
 % Used        = 25.00%
 """
-rubric = 5
+rubric = 4
 
 [[tests]]
 name = "sort_sa_32_1_4"
@@ -201,7 +201,7 @@ Misses (cold) = 32
 Misses (hot)  = 250
 % Used        = 100.00%
 """
-rubric = 5
+rubric = 4
 
 [[tests]]
 name = "sort_sa_32_4_4"
@@ -222,7 +222,7 @@ Misses (cold) = 8
 Misses (hot)  = 91
 % Used        = 25.00%
 """
-rubric = 5
+rubric = 4
 
 [[tests]]
 name = "is_pal_analysis_sa_32_4_4"
@@ -252,4 +252,4 @@ Misses (cold) = 5
 Misses (hot)  = 0
 % Used        = 15.62%
 """
-rubric = 5
+rubric = 4
