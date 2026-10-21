@@ -156,12 +156,12 @@ percentage = 0.5
 
 [[project05.dates]]
 suffix = "due"
-date = "2026-04-08"
+date = "2026-11-03"
 percentage = 1.0
 
 [[project05.dates]]
 suffix = "1week"
-date = "2026-04-13"
+date = "2026-11-08"
 percentage = 0.75
 
 [[project05.dates]]
@@ -173,12 +173,12 @@ percentage = 0.5
 
 [[lab06.dates]]
 suffix = "due"
-date = "2026-04-15"
+date = "2026-11-10"
 percentage = 1.0
 
 [[lab06.dates]]
 suffix = "1week"
-date = "2026-04-20"
+date = "2026-11-15"
 percentage = 0.75
 
 [[lab06.dates]]
@@ -190,12 +190,12 @@ percentage = 0.5
 
 [[lab07.dates]]
 suffix = "due"
-date = "2026-04-22"
+date = "2026-11-17"
 percentage = 1.0
 
 [[lab07.dates]]
 suffix = "1week"
-date = "2026-04-27"
+date = "2026-11-22"
 percentage = 0.75
 
 [[lab07.dates]]
@@ -207,12 +207,12 @@ percentage = 0.5
 
 [[project06.dates]]
 suffix = "due"
-date = "2026-04-29"
+date = "2026-11-24"
 percentage = 1.0
 
 [[project06.dates]]
 suffix = "1week"
-date = "2026-05-04"
+date = "2026-11-29"
 percentage = 0.75
 
 [[project06.dates]]
