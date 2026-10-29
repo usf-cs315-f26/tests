@@ -1,12 +1,12 @@
 {
   "version": "1.5",
-  "timestamp": "2026-08-12T22:04:00.876Z",
+  "timestamp": "2026-10-29T02:15:57.095Z",
   "name": "test-quadratic",
   "interface": {
     "inputs": [],
     "outputs": []
   },
-  "nextCircuitId": 2,
+  "nextCircuitId": 10,
   "components": [
     {
       "id": "test_1786572227347_5s2shyotd",
@@ -33,9 +33,9 @@
           "rows": [
             [
               3,
-              5,
+              6,
               0,
-              4,
+              5,
               0,
               0,
               0,
