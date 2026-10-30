@@ -139,12 +139,12 @@ percentage = 0.5
 
 [[lab05.dates]]
 suffix = "due"
-date = "2026-04-01"
+date = "2026-10-27"
 percentage = 1.0
 
 [[lab05.dates]]
 suffix = "1week"
-date = "2026-04-04"
+date = "2026-11-01"
 percentage = 0.75
 
 [[lab05.dates]]
