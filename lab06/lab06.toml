@@ -1,38 +1,27 @@
 [project]
 build = "none"
-strip_output = """
-Use default settings!
-"""
-capture_stderr = false
+timeout = 30
 
 [[tests]]
 name = "add-imm"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/add-imm-test.dig"]
-expected = """
-add-imm-test: passed
-"""
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-add-imm.ggc"]
+expected = "PASS"
 rubric = 20
 
 [[tests]]
 name = "mov-imm"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/mov-imm-test.dig"]
-expected = """
-mov-imm-test: passed
-"""
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-mov-imm.ggc"]
+expected = "PASS"
 rubric = 20
 
 [[tests]]
 name = "sub-imm"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/sub-imm-test.dig"]
-expected = """
-sub-imm-test: passed
-"""
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-sub-imm.ggc"]
+expected = "PASS"
 rubric = 20
 
 [[tests]]
 name = "cumulative"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/cumulative-test.dig"]
-expected = """
-cumulative-test: passed
-"""
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-cumulative.ggc"]
+expected = "PASS"
 rubric = 40

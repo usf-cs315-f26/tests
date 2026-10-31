@@ -1,0 +1,57 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-10-29T18:48:18.995Z",
+  "name": "test-mov-imm",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1793299595215_kiq3kj2lg",
+      "type": "test",
+      "x": 14,
+      "y": 9,
+      "props": {
+        "label": "test-mov-imm",
+        "table": {
+          "inputNames": [
+            "RR0",
+            "RR1",
+            "WR",
+            "WE",
+            "ALUOp",
+            "ALUSrcB",
+            "Imm"
+          ],
+          "outputNames": [
+            "T1"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              6,
+              1,
+              0,
+              1,
+              2,
+              2
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "T1",
+        "stop_output_value": 2,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 10
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

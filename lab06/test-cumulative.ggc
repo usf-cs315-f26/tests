@@ -1,0 +1,80 @@
+{
+  "version": "1.6",
+  "name": "test-cumulative",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_cumulative",
+      "type": "test",
+      "x": 14,
+      "y": 6,
+      "props": {
+        "label": "test-cumulative",
+        "table": {
+          "inputNames": [
+            "RR0",
+            "RR1",
+            "WR",
+            "WE",
+            "ALUOp",
+            "ALUSrcB",
+            "Imm"
+          ],
+          "outputNames": [
+            "T0",
+            "T1"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              5,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              5,
+              6,
+              5,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "stop_enabled": false,
+        "stop_output_name": "",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 10
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

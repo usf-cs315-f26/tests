@@ -1,0 +1,57 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-10-29T18:13:02.087Z",
+  "name": "test-add-imm",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1_1793296323497",
+      "type": "test",
+      "x": 14,
+      "y": 6,
+      "props": {
+        "label": "test-add-imm",
+        "table": {
+          "inputNames": [
+            "RR0",
+            "RR1",
+            "WR",
+            "WE",
+            "ALUOp",
+            "ALUSrcB",
+            "Imm"
+          ],
+          "outputNames": [
+            "T0"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              5,
+              1,
+              0,
+              1,
+              1,
+              1
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "T0",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 10
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

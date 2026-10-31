@@ -1,0 +1,57 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-10-29T19:14:59.857Z",
+  "name": "test-sub-imm",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1793299753918_ko79i9deg",
+      "type": "test",
+      "x": 14,
+      "y": 9,
+      "props": {
+        "label": "test-sub-imm",
+        "table": {
+          "inputNames": [
+            "RR0",
+            "RR1",
+            "WR",
+            "WE",
+            "ALUOp",
+            "ALUSrcB",
+            "Imm"
+          ],
+          "outputNames": [
+            "T0"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              5,
+              1,
+              1,
+              1,
+              1,
+              "18446744073709551615"
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "T0",
+        "stop_output_value": "18446744073709551615",
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 10
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}
