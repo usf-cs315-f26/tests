@@ -1,0 +1,47 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-11-01T00:45:31.000Z",
+  "name": "03-ld-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1789937037114_s8a2gl16z",
+      "type": "test",
+      "x": 141,
+      "y": 4,
+      "props": {
+        "label": "03-ld-test",
+        "table": {
+          "inputNames": [
+            "PROG",
+            "EN"
+          ],
+          "outputNames": [
+            "A0"
+          ],
+          "rows": [
+            [
+              3,
+              1,
+              100
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 100
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

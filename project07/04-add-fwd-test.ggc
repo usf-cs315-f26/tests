@@ -1,0 +1,47 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-11-01T00:45:31.000Z",
+  "name": "04-add-fwd-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1789933577225_9kmrjjr39",
+      "type": "test",
+      "x": 141,
+      "y": 7,
+      "props": {
+        "label": "04-add-fwd-test",
+        "table": {
+          "inputNames": [
+            "PROG",
+            "EN"
+          ],
+          "outputNames": [
+            "A0"
+          ],
+          "rows": [
+            [
+              4,
+              1,
+              3
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 100
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}
