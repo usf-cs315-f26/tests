@@ -1,0 +1,51 @@
+{
+  "version": "1.6",
+  "timestamp": "2026-10-31T22:49:32.769Z",
+  "name": "test-part1",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1_1793486739042",
+      "type": "test",
+      "x": 17,
+      "y": 6,
+      "props": {
+        "label": "test-part1",
+        "table": {
+          "inputNames": [
+            "EN",
+            "PROG"
+          ],
+          "outputNames": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "rows": [
+            [
+              1,
+              0,
+              1,
+              2,
+              3
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 100
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}
